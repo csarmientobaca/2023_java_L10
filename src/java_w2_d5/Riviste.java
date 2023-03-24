@@ -8,9 +8,9 @@ import java.time.*;
 public class Riviste extends Content {
     Periodicita peri;
 
-    public Riviste(String titolo, Year year, int pages, Periodicita pe) {
+    public Riviste(String titolo, Year year, int pages, Periodicita periodicita) {
         super(titolo, year, pages);
-        peri = pe;
+        peri = periodicita;
     }
 
     @Override
