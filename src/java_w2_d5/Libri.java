@@ -20,7 +20,7 @@ public class Libri extends Content{
 
 	    @Override
 	    public String toString() {
-	        return "Libro{"+", title=" + titolo +"ISBN_code=" + ISBN_CODE +", release_Y=" + year +
+	        return "\nLibro{"+", title=" + titolo +", ISBN_code=" + ISBN_CODE +", ANNO=" + year +
 	                ", pageNum=" + pages +", author=" + autore +", genre=" + genero +'}';
 	    }
 	

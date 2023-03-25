@@ -17,7 +17,7 @@ public class Riviste extends Content {
     public String toString() {
 //    	"Libro{"+", title=" + titolo +"ISBN_code=" + ISBN_CODE +", release_Y=" + year +
 //        ", pageNum=" + pages +", author=" + autore +", genre=" + genero +'}';
-        return "Riviste{"+", title=" + titolo +"ISBN_code=" + ISBN_CODE +", release_Y=" + year +
+        return "\nRiviste{"+", title=" + titolo +", ISBN_code=" + ISBN_CODE +", ANNO=" + year +
                 ", pageNum=" + pages +", periodo="+peri+'}';
     }
 }
